@@ -1,4 +1,6 @@
 
+## Iterator Design Pattern
+----
 The Iterator design pattern is a behavioral pattern that provides a way to access the elements of a collection sequentially, without exposing its underlying representation. The main idea behind the pattern is to decouple the algorithm that iterates over a collection from the collection itself, making it possible to iterate over different types of collections without changing the algorithm.
 
 The Iterator pattern consists of two main components: the Iterator interface and the ConcreteIterator class. The Iterator interface defines the methods that a ConcreteIterator class should implement to access the elements of the collection. The ConcreteIterator class maintains the state of the iteration and implements the methods defined in the Iterator interface.

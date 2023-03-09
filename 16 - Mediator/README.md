@@ -1,4 +1,5 @@
 ## Mediator Design Pattern
+----
 The Mediator design pattern is a behavioral pattern that promotes loose coupling between objects by encapsulating their communication within a mediator object. The mediator object acts as a centralized communication hub that facilitates interactions between objects, allowing them to communicate without having direct references to each other.
 
 ### Pros:
@@ -10,9 +11,7 @@ The Mediator design pattern is a behavioral pattern that promotes loose coupling
 - Can introduce performance overhead: Since all communication goes through the mediator object, there may be a performance hit if the mediator becomes a bottleneck or if there are many objects communicating with each other.
 - Can introduce complexity: If not designed properly, the mediator object can become complex and difficult to understand, making it harder to maintain.
 
-
 ### When to use the Mediator design pattern:
-
 - When you have a set of objects that need to communicate with each other, but you want to reduce coupling between them.
 - When you have a complex set of interactions between objects that would be difficult to manage without a centralized communication hub.
 - When you want to add, remove, or modify interactions between objects without affecting the objects themselves.
